@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{b33604a6-5540-46ad-9b86-d521867783ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Native">
+      <UniqueIdentifier>{fee66bdb-f139-46a9-af7a-db993df996d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="driver\mysql_art_resultset.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_art_rset_metadata.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_connection.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_debug.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_driver.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_metadata.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_parameter_metadata.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_prepared_statement.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_ps_resultset.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_ps_resultset_metadata.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_resultbind.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_resultset.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_resultset_metadata.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_statement.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_uri.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_util.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\mysql_warning.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\nativeapi\library_loader.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\nativeapi\mysql_client_api.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\nativeapi\mysql_native_connection_wrapper.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\nativeapi\mysql_native_driver_wrapper.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\nativeapi\mysql_native_resultset_wrapper.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\nativeapi\mysql_native_statement_wrapper.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver\mysql_art_resultset.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_art_rset_metadata.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_connection.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_connection_data.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_connection_options.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_debug.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_driver.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_error.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_metadata.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_parameter_metadata.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_prepared_statement.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_ps_resultset.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_ps_resultset_metadata.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_public_iface.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_resultbind.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_resultset.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_resultset_metadata.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_statement.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_statement_options.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_uri.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_util.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mysql_warning.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\version_info.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\nativeapi\binding_config.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\nativeapi\libmysql_dynamic_proxy.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\nativeapi\libmysql_static_proxy.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\nativeapi\library_loader.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\nativeapi\mysql_client_api.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\nativeapi\mysql_native_connection_wrapper.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\nativeapi\mysql_native_driver_wrapper.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\nativeapi\mysql_native_resultset_wrapper.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\nativeapi\mysql_native_statement_wrapper.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\nativeapi\mysql_private_iface.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\nativeapi\native_connection_wrapper.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\nativeapi\native_driver_wrapper.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\nativeapi\native_resultset_wrapper.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\nativeapi\native_statement_wrapper.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

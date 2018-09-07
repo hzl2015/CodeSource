@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  shujuku.cpp
+f:\demo\c++\shujuku2\shujuku\shujuku\shujuku.cpp(118): warning C4244: “初始化”: 从“my_ulonglong”转换到“int”，可能丢失数据
+f:\demo\c++\shujuku2\shujuku\shujuku\shujuku.cpp(134): warning C4018: “<”: 有符号/无符号不匹配
+  shujuku.vcxproj -> F:\DEMO\C++\shujuku2\shujuku\Debug\shujuku.exe
+  shujuku.vcxproj -> F:\DEMO\C++\shujuku2\shujuku\Debug\shujuku.pdb (Partial PDB)

@@ -1,0 +1,296 @@
+﻿  mysql_art_resultset.cpp
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+  Unknown compiler version - please run the configure tests and report the results
+  mysql_art_rset_metadata.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\sys\types.h(15): error C2144: 语法错误:“unsigned short”的前面应有“;”
+d:\vs\vc\tools\msvc\14.14.26428\include\xkeycheck.h(178): warning C4005: “bool”: 宏重定义
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\mysql\stdbool.h(23): note: 参见“bool”的前一个定义
+d:\vs\vc\tools\msvc\14.14.26428\include\xkeycheck.h(201): warning C4005: “false”: 宏重定义
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\mysql\stdbool.h(25): note: 参见“false”的前一个定义
+d:\vs\vc\tools\msvc\14.14.26428\include\xkeycheck.h(236): warning C4005: “true”: 宏重定义
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\mysql\stdbool.h(24): note: 参见“true”的前一个定义
+d:\vs\vc\tools\msvc\14.14.26428\include\xkeycheck.h(260): fatal error C1189: #error:  The C++ Standard Library forbids macroizing keywords. Enable warning C4005 to find the forbidden macro.
+  mysql_connection.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\variant.h(267): error C2535: “sql::Variant::Variant(const int &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\variant.h(261): note: 参见“sql::Variant::Variant”的声明
+  mysql_debug.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_debug.cpp(84): error C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1191): note: 参见“getenv”的声明
+  mysql_driver.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  mysql_metadata.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\variant.h(267): error C2535: “sql::Variant::Variant(const int &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\variant.h(261): note: 参见“sql::Variant::Variant”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(113): error C2535: “int sql::mysql::NativeAPI::NativeConnectionWrapper::options(sql::mysql::MySQL_Connection_Options,const _Bool &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(110): note: 参见“sql::mysql::NativeAPI::NativeConnectionWrapper::options”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(124): error C2535: “int sql::mysql::NativeAPI::NativeConnectionWrapper::get_option(sql::mysql::MySQL_Connection_Options,const _Bool &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(121): note: 参见“sql::mysql::NativeAPI::NativeConnectionWrapper::get_option”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_metadata.cpp(2346): error C2065: “MYCPPCONN_STRVERSION”: 未声明的标识符
+  mysql_parameter_metadata.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  mysql_prepared_statement.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\variant.h(267): error C2535: “sql::Variant::Variant(const int &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\variant.h(261): note: 参见“sql::Variant::Variant”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_prepared_statement.cpp(139): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_prepared_statement.cpp(1074): error C2451: “boost::scoped_ptr<sql::mysql::MySQL_Warning>”类型的条件表达式是非法的
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_prepared_statement.cpp(1074): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  mysql_ps_resultset.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(102): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::absolute”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::absolute”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(84): note: 参见“sql::ResultSet::absolute”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(116): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::first”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::first”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(98): note: 参见“sql::ResultSet::first”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(122): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::getBoolean”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::getBoolean”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(104): note: 参见“sql::ResultSet::getBoolean”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(121): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::getBoolean”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::getBoolean”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(103): note: 参见“sql::ResultSet::getBoolean”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(163): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::isAfterLast”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isAfterLast”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(146): note: 参见“sql::ResultSet::isAfterLast”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(165): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::isBeforeFirst”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isBeforeFirst”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(148): note: 参见“sql::ResultSet::isBeforeFirst”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(167): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::isClosed”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isClosed”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(150): note: 参见“sql::ResultSet::isClosed”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(171): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::isFirst”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isFirst”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(152): note: 参见“sql::ResultSet::isFirst”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(173): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::isLast”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isLast”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(154): note: 参见“sql::ResultSet::isLast”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(177): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::isNull”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isNull”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(157): note: 参见“sql::ResultSet::isNull”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(175): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::isNull”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isNull”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(156): note: 参见“sql::ResultSet::isNull”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(179): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::last”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::last”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(159): note: 参见“sql::ResultSet::last”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(185): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::next”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::next”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(161): note: 参见“sql::ResultSet::next”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(187): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::previous”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::previous”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(167): note: 参见“sql::ResultSet::previous”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(191): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::relative”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::relative”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(171): note: 参见“sql::ResultSet::relative”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(193): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::rowDeleted”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::rowDeleted”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(173): note: 参见“sql::ResultSet::rowDeleted”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(195): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::rowInserted”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::rowInserted”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(175): note: 参见“sql::ResultSet::rowInserted”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(197): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::rowUpdated”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::rowUpdated”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(177): note: 参见“sql::ResultSet::rowUpdated”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset.h(203): error C2555: “sql::mysql::MySQL_Prepared_ResultSet::wasNull”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::wasNull”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(183): note: 参见“sql::ResultSet::wasNull”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(98): error C2555: “sql::mysql::MySQL_ResultSet::absolute”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::absolute”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(84): note: 参见“sql::ResultSet::absolute”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(112): error C2555: “sql::mysql::MySQL_ResultSet::first”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::first”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(98): note: 参见“sql::ResultSet::first”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(118): error C2555: “sql::mysql::MySQL_ResultSet::getBoolean”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::getBoolean”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(104): note: 参见“sql::ResultSet::getBoolean”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(117): error C2555: “sql::mysql::MySQL_ResultSet::getBoolean”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::getBoolean”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(103): note: 参见“sql::ResultSet::getBoolean”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(163): error C2555: “sql::mysql::MySQL_ResultSet::isAfterLast”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isAfterLast”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(146): note: 参见“sql::ResultSet::isAfterLast”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(165): error C2555: “sql::mysql::MySQL_ResultSet::isBeforeFirst”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isBeforeFirst”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(148): note: 参见“sql::ResultSet::isBeforeFirst”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(167): error C2555: “sql::mysql::MySQL_ResultSet::isClosed”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isClosed”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(150): note: 参见“sql::ResultSet::isClosed”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(169): error C2555: “sql::mysql::MySQL_ResultSet::isFirst”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isFirst”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(152): note: 参见“sql::ResultSet::isFirst”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(171): error C2555: “sql::mysql::MySQL_ResultSet::isLast”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isLast”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(154): note: 参见“sql::ResultSet::isLast”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(175): error C2555: “sql::mysql::MySQL_ResultSet::isNull”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isNull”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(157): note: 参见“sql::ResultSet::isNull”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(173): error C2555: “sql::mysql::MySQL_ResultSet::isNull”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isNull”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(156): note: 参见“sql::ResultSet::isNull”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(177): error C2555: “sql::mysql::MySQL_ResultSet::last”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::last”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(159): note: 参见“sql::ResultSet::last”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(183): error C2555: “sql::mysql::MySQL_ResultSet::next”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::next”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(161): note: 参见“sql::ResultSet::next”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(185): error C2555: “sql::mysql::MySQL_ResultSet::previous”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::previous”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(167): note: 参见“sql::ResultSet::previous”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(189): error C2555: “sql::mysql::MySQL_ResultSet::relative”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::relative”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(171): note: 参见“sql::ResultSet::relative”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(191): error C2555: “sql::mysql::MySQL_ResultSet::rowDeleted”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::rowDeleted”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(173): note: 参见“sql::ResultSet::rowDeleted”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(193): error C2555: “sql::mysql::MySQL_ResultSet::rowInserted”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::rowInserted”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(175): note: 参见“sql::ResultSet::rowInserted”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(195): error C2555: “sql::mysql::MySQL_ResultSet::rowUpdated”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::rowUpdated”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(177): note: 参见“sql::ResultSet::rowUpdated”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(201): error C2555: “sql::mysql::MySQL_ResultSet::wasNull”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::wasNull”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(183): note: 参见“sql::ResultSet::wasNull”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset_metadata.h(98): error C2555: “sql::mysql::MySQL_PreparedResultSetMetaData::isAutoIncrement”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isAutoIncrement”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(78): note: 参见“sql::ResultSetMetaData::isAutoIncrement”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset_metadata.h(100): error C2555: “sql::mysql::MySQL_PreparedResultSetMetaData::isCaseSensitive”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isCaseSensitive”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(80): note: 参见“sql::ResultSetMetaData::isCaseSensitive”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset_metadata.h(102): error C2555: “sql::mysql::MySQL_PreparedResultSetMetaData::isCurrency”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isCurrency”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(82): note: 参见“sql::ResultSetMetaData::isCurrency”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset_metadata.h(104): error C2555: “sql::mysql::MySQL_PreparedResultSetMetaData::isDefinitelyWritable”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isDefinitelyWritable”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(84): note: 参见“sql::ResultSetMetaData::isDefinitelyWritable”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset_metadata.h(108): error C2555: “sql::mysql::MySQL_PreparedResultSetMetaData::isNumeric”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isNumeric”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(88): note: 参见“sql::ResultSetMetaData::isNumeric”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset_metadata.h(110): error C2555: “sql::mysql::MySQL_PreparedResultSetMetaData::isReadOnly”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isReadOnly”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(90): note: 参见“sql::ResultSetMetaData::isReadOnly”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset_metadata.h(112): error C2555: “sql::mysql::MySQL_PreparedResultSetMetaData::isSearchable”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isSearchable”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(92): note: 参见“sql::ResultSetMetaData::isSearchable”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset_metadata.h(114): error C2555: “sql::mysql::MySQL_PreparedResultSetMetaData::isSigned”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isSigned”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(94): note: 参见“sql::ResultSetMetaData::isSigned”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset_metadata.h(116): error C2555: “sql::mysql::MySQL_PreparedResultSetMetaData::isWritable”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isWritable”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(96): note: 参见“sql::ResultSetMetaData::isWritable”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_ps_resultset_metadata.h(118): error C2555: “sql::mysql::MySQL_PreparedResultSetMetaData::isZerofill”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isZerofill”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(98): note: 参见“sql::ResultSetMetaData::isZerofill”的声明
+  mysql_ps_resultset_metadata.cpp
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+  Unknown compiler version - please run the configure tests and report the results
+  mysql_resultbind.cpp
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+  Unknown compiler version - please run the configure tests and report the results
+  mysql_resultset.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(98): error C2555: “sql::mysql::MySQL_ResultSet::absolute”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::absolute”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(84): note: 参见“sql::ResultSet::absolute”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(112): error C2555: “sql::mysql::MySQL_ResultSet::first”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::first”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(98): note: 参见“sql::ResultSet::first”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(118): error C2555: “sql::mysql::MySQL_ResultSet::getBoolean”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::getBoolean”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(104): note: 参见“sql::ResultSet::getBoolean”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(117): error C2555: “sql::mysql::MySQL_ResultSet::getBoolean”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::getBoolean”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(103): note: 参见“sql::ResultSet::getBoolean”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(163): error C2555: “sql::mysql::MySQL_ResultSet::isAfterLast”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isAfterLast”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(146): note: 参见“sql::ResultSet::isAfterLast”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(165): error C2555: “sql::mysql::MySQL_ResultSet::isBeforeFirst”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isBeforeFirst”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(148): note: 参见“sql::ResultSet::isBeforeFirst”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(167): error C2555: “sql::mysql::MySQL_ResultSet::isClosed”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isClosed”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(150): note: 参见“sql::ResultSet::isClosed”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(169): error C2555: “sql::mysql::MySQL_ResultSet::isFirst”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isFirst”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(152): note: 参见“sql::ResultSet::isFirst”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(171): error C2555: “sql::mysql::MySQL_ResultSet::isLast”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isLast”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(154): note: 参见“sql::ResultSet::isLast”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(175): error C2555: “sql::mysql::MySQL_ResultSet::isNull”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isNull”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(157): note: 参见“sql::ResultSet::isNull”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(173): error C2555: “sql::mysql::MySQL_ResultSet::isNull”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::isNull”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(156): note: 参见“sql::ResultSet::isNull”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(177): error C2555: “sql::mysql::MySQL_ResultSet::last”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::last”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(159): note: 参见“sql::ResultSet::last”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(183): error C2555: “sql::mysql::MySQL_ResultSet::next”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::next”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(161): note: 参见“sql::ResultSet::next”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(185): error C2555: “sql::mysql::MySQL_ResultSet::previous”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::previous”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(167): note: 参见“sql::ResultSet::previous”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(189): error C2555: “sql::mysql::MySQL_ResultSet::relative”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::relative”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(171): note: 参见“sql::ResultSet::relative”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(191): error C2555: “sql::mysql::MySQL_ResultSet::rowDeleted”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::rowDeleted”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(173): note: 参见“sql::ResultSet::rowDeleted”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(193): error C2555: “sql::mysql::MySQL_ResultSet::rowInserted”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::rowInserted”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(175): note: 参见“sql::ResultSet::rowInserted”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(195): error C2555: “sql::mysql::MySQL_ResultSet::rowUpdated”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::rowUpdated”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(177): note: 参见“sql::ResultSet::rowUpdated”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset.h(201): error C2555: “sql::mysql::MySQL_ResultSet::wasNull”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSet::wasNull”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset.h(183): note: 参见“sql::ResultSet::wasNull”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset_metadata.h(96): error C2555: “sql::mysql::MySQL_ResultSetMetaData::isAutoIncrement”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isAutoIncrement”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(78): note: 参见“sql::ResultSetMetaData::isAutoIncrement”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset_metadata.h(98): error C2555: “sql::mysql::MySQL_ResultSetMetaData::isCaseSensitive”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isCaseSensitive”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(80): note: 参见“sql::ResultSetMetaData::isCaseSensitive”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset_metadata.h(100): error C2555: “sql::mysql::MySQL_ResultSetMetaData::isCurrency”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isCurrency”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(82): note: 参见“sql::ResultSetMetaData::isCurrency”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset_metadata.h(102): error C2555: “sql::mysql::MySQL_ResultSetMetaData::isDefinitelyWritable”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isDefinitelyWritable”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(84): note: 参见“sql::ResultSetMetaData::isDefinitelyWritable”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset_metadata.h(106): error C2555: “sql::mysql::MySQL_ResultSetMetaData::isNumeric”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isNumeric”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(88): note: 参见“sql::ResultSetMetaData::isNumeric”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset_metadata.h(108): error C2555: “sql::mysql::MySQL_ResultSetMetaData::isReadOnly”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isReadOnly”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(90): note: 参见“sql::ResultSetMetaData::isReadOnly”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset_metadata.h(110): error C2555: “sql::mysql::MySQL_ResultSetMetaData::isSearchable”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isSearchable”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(92): note: 参见“sql::ResultSetMetaData::isSearchable”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset_metadata.h(112): error C2555: “sql::mysql::MySQL_ResultSetMetaData::isSigned”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isSigned”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(94): note: 参见“sql::ResultSetMetaData::isSigned”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset_metadata.h(114): error C2555: “sql::mysql::MySQL_ResultSetMetaData::isWritable”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isWritable”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(96): note: 参见“sql::ResultSetMetaData::isWritable”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_resultset_metadata.h(116): error C2555: “sql::mysql::MySQL_ResultSetMetaData::isZerofill”: 重写虚函数返回类型有差异，且不是来自“sql::ResultSetMetaData::isZerofill”的协变
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\resultset_metadata.h(98): note: 参见“sql::ResultSetMetaData::isZerofill”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\variant.h(267): error C2535: “sql::Variant::Variant(const int &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\variant.h(261): note: 参见“sql::Variant::Variant”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(113): error C2535: “int sql::mysql::NativeAPI::NativeConnectionWrapper::options(sql::mysql::MySQL_Connection_Options,const _Bool &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(110): note: 参见“sql::mysql::NativeAPI::NativeConnectionWrapper::options”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(124): error C2535: “int sql::mysql::NativeAPI::NativeConnectionWrapper::get_option(sql::mysql::MySQL_Connection_Options,const _Bool &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(121): note: 参见“sql::mysql::NativeAPI::NativeConnectionWrapper::get_option”的声明
+  mysql_resultset_metadata.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+  mysql_statement.cpp
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+  Unknown compiler version - please run the configure tests and report the results
+f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\variant.h(267): error C2535: “sql::Variant::Variant(const int &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\cppconn\variant.h(261): note: 参见“sql::Variant::Variant”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(113): error C2535: “int sql::mysql::NativeAPI::NativeConnectionWrapper::options(sql::mysql::MySQL_Connection_Options,const _Bool &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(110): note: 参见“sql::mysql::NativeAPI::NativeConnectionWrapper::options”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(124): error C2535: “int sql::mysql::NativeAPI::NativeConnectionWrapper::get_option(sql::mysql::MySQL_Connection_Options,const _Bool &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(121): note: 参见“sql::mysql::NativeAPI::NativeConnectionWrapper::get_option”的声明
+  mysql_uri.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_uri.cpp(140): error C2556: “_Bool sql::mysql::tcpProtocol(sql::mysql::MySQL_Uri &)”: 重载函数与“bool sql::mysql::tcpProtocol(sql::mysql::MySQL_Uri &)”只是在返回类型上不同
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_uri.h(71): note: 参见“sql::mysql::tcpProtocol”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_uri.cpp(139): error C2371: “sql::mysql::tcpProtocol”: 重定义；不同的基类型
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_uri.h(71): note: 参见“sql::mysql::tcpProtocol”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_uri.cpp(152): error C2556: “_Bool sql::mysql::parseUri(const sql::SQLString &,sql::mysql::MySQL_Uri &)”: 重载函数与“bool sql::mysql::parseUri(const sql::SQLString &,sql::mysql::MySQL_Uri &)”只是在返回类型上不同
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_uri.h(74): note: 参见“sql::mysql::parseUri”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_uri.cpp(151): error C2371: “sql::mysql::parseUri”: 重定义；不同的基类型
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\mysql_uri.h(74): note: 参见“sql::mysql::parseUri”的声明
+  mysql_util.cpp
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+  Unknown compiler version - please run the configure tests and report the results
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(113): error C2535: “int sql::mysql::NativeAPI::NativeConnectionWrapper::options(sql::mysql::MySQL_Connection_Options,const _Bool &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(110): note: 参见“sql::mysql::NativeAPI::NativeConnectionWrapper::options”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(124): error C2535: “int sql::mysql::NativeAPI::NativeConnectionWrapper::get_option(sql::mysql::MySQL_Connection_Options,const _Bool &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(121): note: 参见“sql::mysql::NativeAPI::NativeConnectionWrapper::get_option”的声明
+  mysql_warning.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  library_loader.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  mysql_client_api.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\libmysql_dynamic_proxy.cpp(443): error C2440: “初始化”: 无法从“sql::mysql::NativeAPI::ptr2mysql_options4 ”转换为“sql::mysql::NativeAPI::ptr2mysql_get_option”
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\libmysql_dynamic_proxy.cpp(443): note: 该强制转换要求 reinterpret_cast、C 样式强制转换或函数类型强制转换
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\libmysql_dynamic_proxy.cpp(822): error C2065: “ptr2_stmt_next_result”: 未声明的标识符
+  mysql_native_connection_wrapper.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(113): error C2535: “int sql::mysql::NativeAPI::NativeConnectionWrapper::options(sql::mysql::MySQL_Connection_Options,const _Bool &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(110): note: 参见“sql::mysql::NativeAPI::NativeConnectionWrapper::options”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(124): error C2535: “int sql::mysql::NativeAPI::NativeConnectionWrapper::get_option(sql::mysql::MySQL_Connection_Options,const _Bool &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(121): note: 参见“sql::mysql::NativeAPI::NativeConnectionWrapper::get_option”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\mysql_native_connection_wrapper.h(121): error C2535: “int sql::mysql::NativeAPI::MySQL_NativeConnectionWrapper::options(sql::mysql::MySQL_Connection_Options,const _Bool &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\mysql_native_connection_wrapper.h(120): note: 参见“sql::mysql::NativeAPI::MySQL_NativeConnectionWrapper::options”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\mysql_native_connection_wrapper.h(129): error C2535: “int sql::mysql::NativeAPI::MySQL_NativeConnectionWrapper::get_option(sql::mysql::MySQL_Connection_Options,const _Bool &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\mysql_native_connection_wrapper.h(128): note: 参见“sql::mysql::NativeAPI::MySQL_NativeConnectionWrapper::get_option”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\mysql_native_connection_wrapper.cpp(325): error C2084: 函数“int sql::mysql::NativeAPI::MySQL_NativeConnectionWrapper::options(sql::mysql::MySQL_Connection_Options,const _Bool &)”已有主体
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\mysql_native_connection_wrapper.cpp(313): note: 参见“options”的前一个定义
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\mysql_native_connection_wrapper.cpp(373): error C2084: 函数“int sql::mysql::NativeAPI::MySQL_NativeConnectionWrapper::get_option(sql::mysql::MySQL_Connection_Options,const _Bool &)”已有主体
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\mysql_native_connection_wrapper.cpp(361): note: 参见“get_option”的前一个定义
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\mysql_native_connection_wrapper.cpp(382): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  mysql_native_driver_wrapper.cpp
+d:\vs\vc\tools\msvc\14.14.26428\include\sal.h(2361): error C2144: 语法错误:“int”的前面应有“;”
+  Unknown compiler version - please run the configure tests and report the results
+d:\vs\vc\tools\msvc\14.14.26428\include\xkeycheck.h(178): warning C4005: “bool”: 宏重定义
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\mysql\stdbool.h(23): note: 参见“bool”的前一个定义
+d:\vs\vc\tools\msvc\14.14.26428\include\xkeycheck.h(201): warning C4005: “false”: 宏重定义
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\mysql\stdbool.h(25): note: 参见“false”的前一个定义
+d:\vs\vc\tools\msvc\14.14.26428\include\xkeycheck.h(236): warning C4005: “true”: 宏重定义
+  f:\demo\createmysql\mysqlconn\mysqlconn\include\mysql\stdbool.h(24): note: 参见“true”的前一个定义
+d:\vs\vc\tools\msvc\14.14.26428\include\xkeycheck.h(260): fatal error C1189: #error:  The C++ Standard Library forbids macroizing keywords. Enable warning C4005 to find the forbidden macro.
+  mysql_native_resultset_wrapper.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+  mysql_native_statement_wrapper.cpp
+d:\vs\vc\tools\msvc\14.14.26428\include\excpt.h(14): error C2144: 语法错误:“int”的前面应有“;”
+  Unknown compiler version - please run the configure tests and report the results
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(113): error C2535: “int sql::mysql::NativeAPI::NativeConnectionWrapper::options(sql::mysql::MySQL_Connection_Options,const _Bool &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(110): note: 参见“sql::mysql::NativeAPI::NativeConnectionWrapper::options”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(124): error C2535: “int sql::mysql::NativeAPI::NativeConnectionWrapper::get_option(sql::mysql::MySQL_Connection_Options,const _Bool &)”: 已经定义或声明成员函数
+  f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\native_connection_wrapper.h(121): note: 参见“sql::mysql::NativeAPI::NativeConnectionWrapper::get_option”的声明
+f:\demo\createmysql\mysqlconn\mysqlconn\driver\nativeapi\mysql_native_statement_wrapper.cpp(200): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  正在生成代码...

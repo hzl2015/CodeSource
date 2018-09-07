@@ -1,0 +1,2 @@
+2017-06-15, 14:45:48.475980 [00:00:00] [int __cdecl wmain(int,char *[]) (f:\demo\boost\signal\signal\signal.cpp:108)] <warning> A warning severity message, will pass to the file
+2017-06-15, 14:45:48.478997 [00:00:00] [int __cdecl wmain(int,char *[]) (f:\demo\boost\signal\signal\signal.cpp:108)] <error> An error severity message, will pass to the file

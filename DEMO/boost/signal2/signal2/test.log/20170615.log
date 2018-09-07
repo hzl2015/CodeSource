@@ -1,0 +1,4 @@
+[2017-06-15 17:30:34.958916 0x00001330 ] hello, world!
+[2017-06-15 17:30:34.960419 0x00001330 ] A normal severity message, will not pass to the file
+[2017-06-15 17:30:34.962421 0x00001330 ] A warning severity message, will pass to the file
+[2017-06-15 17:30:34.964421 0x00001330 ] An error severity message, will pass to the file

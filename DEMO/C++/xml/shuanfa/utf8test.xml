@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BSConfig >
+	<States>
+		<State id="1" people="30" rank="24" score1 ="100" score2 ="600" />
+		<State id="2" people="24" rank="12" score1 ="200" score2 ="600"/>
+		<State id="3" people="12" rank="6" score1 ="300" score2 ="600"/>
+		<State id="4" people="6" rank="3" score1 ="400" score2 ="600"/>
+	</States>
+	<Awards>
+		<Award id="1">
+			<Props>
+			</Props>
+		</Award>
+		<Award id="2">
+			<Props>
+				<Prop gifid="261" gifnum="10"/>
+				<Prop gifid="15" gifnum="8000"/>
+			</Props>
+		</Award>
+		<Award id="3">
+			<Props>
+				<Prop gifid="261" gifnum="10"/>
+				<Prop gifid="15" gifnum="8000"/>
+			</Props>
+		</Award>
+		<Award id="4">
+			<Props>
+				<Prop gifid="261" gifnum="10"/>
+				<Prop gifid="15" gifnum="8000"/>
+			</Props>
+		</Award>
+	</Awards>
+</BSConfig >

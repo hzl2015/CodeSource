@@ -1,0 +1,29 @@
+﻿生成启动时间为 2018/8/21 20:59:28。
+     1>项目“D:\new\test\DEMO\DEMO\C++\dll\dlltest\dlltest\dlltest.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D DLLTEST /D _WINDLL /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Empty.cpp
+         Empty.cpp
+     1>d:\new\test\demo\demo\c++\dll\dlltest\dlltest\empty.cpp(5): warning C4273: “CEmpty::CEmpty”: dll 链接不一致
+                 d:\new\test\demo\demo\c++\dll\dlltest\dlltest\empty.h(19) : 参见“{ctor}”的前一个定义
+     1>d:\new\test\demo\demo\c++\dll\dlltest\dlltest\empty.cpp(8): warning C4273: “CEmpty::CEmpty”: dll 链接不一致
+                 d:\new\test\demo\demo\c++\dll\dlltest\dlltest\empty.h(20) : 参见“{ctor}”的前一个定义
+     1>d:\new\test\demo\demo\c++\dll\dlltest\dlltest\empty.cpp(13): warning C4273: “CEmpty::~CEmpty”: dll 链接不一致
+                 d:\new\test\demo\demo\c++\dll\dlltest\dlltest\empty.h(22) : 参见“{dtor}”的前一个定义
+     1>d:\new\test\demo\demo\c++\dll\dlltest\dlltest\empty.cpp(18): warning C4273: “CEmpty::operator =”: dll 链接不一致
+                 d:\new\test\demo\demo\c++\dll\dlltest\dlltest\empty.h(24) : 参见“=”的前一个定义
+     1>d:\new\test\demo\demo\c++\dll\dlltest\dlltest\empty.cpp(24): warning C4273: “CEmpty::operator &”: dll 链接不一致
+                 d:\new\test\demo\demo\c++\dll\dlltest\dlltest\empty.h(26) : 参见“&”的前一个定义
+     1>d:\new\test\demo\demo\c++\dll\dlltest\dlltest\empty.cpp(30): warning C4273: “CEmpty::operator &”: dll 链接不一致
+                 d:\new\test\demo\demo\c++\dll\dlltest\dlltest\empty.h(27) : 参见“&”的前一个定义
+     1>d:\new\test\demo\demo\c++\dll\dlltest\dlltest\empty.cpp(35): warning C4273: “CEmpty::CEmptyprint”: dll 链接不一致
+                 d:\new\test\demo\demo\c++\dll\dlltest\dlltest\empty.h(29) : 参见“CEmptyprint”的前一个定义
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\new\test\DEMO\DEMO\C++\dll\dllmain\Debug\dllcreate.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\new\test\DEMO\DEMO\C++\dll\dllmain\Debug\dllcreate.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\new\test\DEMO\DEMO\C++\dll\dllmain\Debug\dllcreate.lib" /MACHINE:X86 /DLL Debug\dllcreate.obj
+         Debug\Empty.obj
+            正在创建库 D:\new\test\DEMO\DEMO\C++\dll\dllmain\Debug\dllcreate.lib 和对象 D:\new\test\DEMO\DEMO\C++\dll\dllmain\Debug\dllcreate.exp
+         dlltest.vcxproj -> D:\new\test\DEMO\DEMO\C++\dll\dllmain\Debug\dllcreate.dll
+     1>已完成生成项目“D:\new\test\DEMO\DEMO\C++\dll\dlltest\dlltest\dlltest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.48
